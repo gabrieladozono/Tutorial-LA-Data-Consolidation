@@ -59,7 +59,9 @@ Esse componente contém um código personalizado que você pode importar ou cola
 > **É necessário apagar todo o código padrão do componente antes de colar o código novo**
 
 Por enquanto o fluxo está nesse formato:
-
+<p align="center">
+  <img src="imagens/fluxo1.png" alt="Fluxo por enquanto" width="500">
+</p>
 
 
 
