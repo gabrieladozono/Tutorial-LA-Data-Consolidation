@@ -87,7 +87,18 @@ Para isso, é necessário duplicar os blocos existentes da LLM e do Prompt origi
 
 No novo prompt da LLM, copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
 
-👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm.txt`](LLM.txt)
+👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm2.txt`](LLM2.txt)
+
+## 8. Conectando a LLM ao Output
+Agora que temos a segunda LLM configurada, é necessário conectar sua saída à caixa de Output, para que o resultado final apareça quando o fluxo for executado.
+- Localize o componente Output no canto direito do fluxo.
+- Conecte a saída da segunda LLM à entrada do Output.
+
+<p align="center"> 
+  <img src="imagens/typeconvert.png" alt="Configuração do componente TypeConvert para Message" width="400"> 
+</p>
+
+✅ Pronto! O fluxo agora está completo.
 
 
 
