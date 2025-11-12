@@ -40,6 +40,13 @@ Agora, vamos inserir um componente customizado no fluxo.
 Esse componente contém um código personalizado que você pode importar ou colar diretamente dentro do Langflow.
 - Na aba de componentes, clique em **"New Custom Component"**
 - Clique sobre ela e clique em "<> code" para abrir o editor de código.
-- Copie o conteúdo do arquivo abaixo e cole dentro do editor.
+- Copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
 
-  
+👉🏼[Clique aqui para baixar o arquivo `custom_component.py`](langflow.py)
+> **É necessário apagar todo o código padrão do componente antes de colar o código novo**
+
+
+
+
+
+
