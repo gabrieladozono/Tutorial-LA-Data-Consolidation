@@ -42,7 +42,7 @@ Essa descrição define como a LLM deve interpretar o pedido do usuário e gerar
 - CLique na caixinha abaixo de templete para editar o prompt e apague o texto existente.  
 - Copie o conteúdo do arquivo abaixo e cole dentro do campo de prompt:  
 
-👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm.txt`](LLM.txt)
+👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm.txt`](codigo/LLM.txt)
 
 ## 5. Adicionando um componente customizado ao fluxo
 Agora, vamos inserir um componente customizado no fluxo.
@@ -55,7 +55,7 @@ Esse componente contém um código personalizado que você pode importar ou cola
 </p>
 - Copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
 
-👉🏼 [Clique aqui para baixar o arquivo `custom_component.py`](langflow.py)
+👉🏼 [Clique aqui para baixar o arquivo `custom_component.py`](codigo/langflow.py)
 > **É necessário apagar todo o código padrão do componente antes de colar o código novo**
 
 Por enquanto o fluxo está nesse formato:
@@ -87,7 +87,7 @@ Para isso, é necessário duplicar os blocos existentes da LLM e do Prompt origi
 
 No novo prompt da LLM, copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
 
-👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm2.txt`](LLM2.txt)
+👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm2.txt`](codigo/LLM2.txt)
 
 ## 8. Conectando a LLM ao Output
 Agora que temos a segunda LLM configurada, é necessário conectar sua saída à caixa de Output, para que o resultado final apareça quando o fluxo for executado.
