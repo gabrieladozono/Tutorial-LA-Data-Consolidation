@@ -100,6 +100,18 @@ Agora que temos a segunda LLM configurada, é necessário conectar sua saída à
 
 ✅ Pronto! O fluxo agora está completo.
 
+## 9. Adaptações necessárias
+Apesar do fluxo estar completo, ele ainda não rodará completamente. Agora é necessário modificar duas coisas:
+- O caminho local da planilha
+- O project ID e a API key, necessários para rodar a LLM.
+
+Para mudar o caminho local da planilha:
+- Entre no código do componente customizado.
+- Troque o caminho da planilha pelo novo caminho.
+
+<p align="center"> 
+  <img src="imagens/fluxo2.png" alt="Fluxo completo" width="600"> 
+</p>
 
 
 
