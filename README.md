@@ -169,9 +169,24 @@ Para adicionar o project ID e a API key:
   <img src="imagens/apikey.png" alt="API key" width="400"> 
 </p>
 
+## 10. Ajuste opcionais
+Alterações podems er feitas de acordo com sua vontade, como:
+- O mapeamento de termos
+- Prompt da LLM
+
+Para isso, apenas siga a estrutura de cada componente para realizar qualquer alteração. Precisando de ajuda é só mandar mensagem!
+
 ✅ Pronto! Agora o fluxo está pronto para ser usado!
 
-## 10. Rodar o fluxo
+## 11. Rodar o fluxo
+Da forma que a primeira LLM está configurada, há uma forma específica de enviar o input/pergunta.
+
+Nas perguntas é necessário citar o termo, da bibloteca de termos do código, que quer ver, sendo ele sozinho ou acompanhado do filtro que será feito, por exemplo:
+- Caso eu queira ver casos de 9176 de Itaú com preço final, o input seria: quero ver **casos** e **total price** de **path** 9176 e **client** itau.
+> Palavras que estão em negrito são os termos do mapeamento, eles podem ser alterados de acordo com oque querem usar.
+
+> Observe que letras maiúsculas e acentos não são necessários, o fluxo rodará mesmo assim. 
+
 Para rodar uma pergunta há duas opções:
 - Escrever a pergunta dentro da caixinha do input e depois clicar no símbolo de play na caixinha do output.
 - Ou entrar no playground, no canto superior direito, e mandar a pergunta.
