@@ -11,7 +11,7 @@ Baixe o arquivo JSON do fluxo completo
 - Na página principal do Langflow, vá na aba "projects" e clique no símbolo de upload.
 
 <p align="center">
-  <img src="imagens/upload.png" alt="Componente IBM watsonx.ai" width="200">
+  <img src="imagens/upload.png" alt="Componente IBM watsonx.ai" width="400">
 </p>
 
 ## 3. Alterações necessárias
