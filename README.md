@@ -96,6 +96,7 @@ Agora que temos a segunda LLM configurada, é necessário conectar sua saída à
 - Conecte a saída da segunda LLM à entrada do Output.
 - Na opção "watson API Endpoint" selecione a primeira opção (DataCenter dos EUA).
 - E na opção "Model Name" escolha o modelo de linguagem que quer usar.
+> Faça esses dois últimos pontos nas duas LLMs.
 
 <p align="center"> 
   <img src="imagens/fluxo2.png" alt="Fluxo completo" width="600"> 
